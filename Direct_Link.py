@@ -5,4 +5,5 @@ def GetDirLink(link):
     dtr = "https://drive.google.com/uc?export=download&id="
     Id = link[33:]
     directlink = dtr + Id
+    return directlink
     print(directlink)
